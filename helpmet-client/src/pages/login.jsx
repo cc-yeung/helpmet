@@ -52,8 +52,9 @@ const login = () => {
 
       const accessToken = response?.data?.accessToken;
 
-      const companyResponse = await axios.get(`/auth/companies?contactEmail=${email}`, {
-        withCredentials: true
+      const companyResponse = await axios.get('/auth/companies', {
+        params: { contactEmail: email },
+        withCredentials: true,
       });
       const companyID = companyResponse?.data?.companyID;
 
