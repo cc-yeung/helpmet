@@ -101,11 +101,13 @@ exports.logout = (req, res) => {
 };
 
 exports.getCompanies = async (req, res) => {
+    console.log("Request user:", req.user);
     if (!req.user || !req.user.email) {
         return res.status(401).json({ message: 'User not authenticated' });
     }
     const { email } = req.user;
     try {
+        console.log("Fetching company for email:", email);
         const company = await Company.findOne({ contactEmail: email });
         if (!company) {
             return res.status(404).json({ message: 'Company not found' });
