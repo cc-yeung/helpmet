@@ -14,7 +14,7 @@ const port = 5001;
 
 // Middleware
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: ['http://localhost:3000', 'http://52.53.246.102:5001'],
   credentials: true,
 };
 
