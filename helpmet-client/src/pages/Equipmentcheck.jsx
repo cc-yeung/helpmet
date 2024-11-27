@@ -31,7 +31,7 @@ const EquipmentCheck = () => {
   const fetchEquipments = async () => {
     try {
       const response = await axios.get(
-        `http://18.144.11.61:5001/companies/${companyID}/equipments`
+        `http://52.53.203.197:5001/companies/${companyID}/equipments`
       );
       setEquipments(response.data);
       setLoading(false);
@@ -48,7 +48,7 @@ const EquipmentCheck = () => {
   const handleUpdateEquipment = async (updatedEquipment) => {
     try {
       const response = await axios.put(
-        `http://18.144.11.61:5001/equipments/${updatedEquipment.equipmentID}`,
+        `http://52.53.203.197:5001/equipments/${updatedEquipment.equipmentID}`,
         updatedEquipment
       );
 
@@ -108,7 +108,7 @@ const EquipmentCheck = () => {
   const handleConfirmDelete = async () => {
     try {
       await axios.delete(
-        `http://18.144.11.61:5001/companies/${companyID}/equipments/${equipmentToDelete}`
+        `http://52.53.203.197:5001/companies/${companyID}/equipments/${equipmentToDelete}`
       );
       setEquipments((prevEquipments) =>
         prevEquipments.filter(
@@ -133,7 +133,7 @@ const EquipmentCheck = () => {
   const handleViewEquipment = async (equipmentID) => {
     try {
       const response = await axios.get(
-        `http://18.144.11.61:5001/equipments/${equipmentID}`
+        `http://52.53.203.197:5001/equipments/${equipmentID}`
       );
       if (response.status === 200) {
         setSelectedEquipment(response.data);
