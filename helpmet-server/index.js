@@ -14,7 +14,7 @@ const port = process.env.PORT || 5001;
 
 // Middleware
 const corsOptions = {
-  origin: ['http://localhost:3000', 'http://50.18.30.132:5001'],
+  origin: ['http://localhost:3000', 'https://helpmet-backend.onrender.com'],
   credentials: true,
 };
 

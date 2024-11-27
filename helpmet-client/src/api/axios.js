@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-    baseURL: 'http://50.18.30.132:5001'
+    baseURL: 'https://helpmet-backend.onrender.com'
 });
