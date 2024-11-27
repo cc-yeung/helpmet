@@ -2,7 +2,7 @@
         <h1 style={{fontSize:'1.5rem', fontStyle:'bold', fontWeight:'600'}}>Injury Analytics</h1>
         <div className="filt" 
         style={{display:'flex', gap:'.25rem', backgroundColor: '#6938EF', padding: '.5rem', borderRadius:'.3rem'}}>
-          <p style={{color:'white'}}>Filter</p><img src='./images/Filter Icon.svg'/>
+          <p style={{color:'white'}}>Filter</p><img src='./images-original/Filter Icon.svg'/>
         </div>
       </div> */
  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -12,7 +12,7 @@
       @tailwind utilities;
     
 
-.slimages{
+.slimages-original{
   display: grid;
 }    
 
@@ -51,7 +51,7 @@ font-size: 16px;
   display: none;
 }
 
-.slimages{
+.slimages-original{
   grid-column: -1;
   grid-row: 1;
 }
@@ -128,7 +128,7 @@ font-size: 16px;
   .secondb{
     grid-column: 1;
   }
-  .slimages{
+  .slimages-original{
     grid-column: -1;
   }
 }
@@ -246,7 +246,7 @@ section h1{
   }
 }
 
-.images1 img, .images img{
+.images-original1 img, .images-original img{
   position: relative;
   padding: 14px 15px;
   padding-bottom: 2.5px;
@@ -254,14 +254,14 @@ section h1{
 
 }
 
-.images1, .images{
+.images-original1, .images-original{
   position: relative;
   /* border: 2px solid blue; */
   padding: 20px ;
   border-top: none;
 }
 
-.images1::before, .images::before{
+.images-original1::before, .images-original::before{
   content: "";
   position: absolute;
   border: 2px solid #98A2B3;
@@ -295,7 +295,7 @@ section h1{
 .except img{
   margin: auto;
 }
-.images img{
+.images-original img{
   padding: 10px;
 }
 
@@ -335,7 +335,7 @@ section h1{
     text-align: center;
   }
 }
-.images1{
+.images-original1{
   grid-column: span 2;
   /* img{
     width: 140px;
@@ -357,7 +357,7 @@ section h1{
   padding-right: 23px;
 }
 
-.images1{
+.images-original1{
   margin-left: 56px;
   margin-right: 55px;
   .socials img{
@@ -366,7 +366,7 @@ section h1{
 }
 
 
-.images{
+.images-original{
   padding: 11px;
 }
 
@@ -407,7 +407,7 @@ section h1{
   color: black;
 }
 
-.slimages{
+.slimages-original{
   display: none;
 }
 .slogan{
@@ -678,7 +678,7 @@ h1{
 }
 
 .slogan{
-  background-image: url(../../images/GroupEverything.svg);
+  background-image: url(../../images-original/GroupEverything.svg);
   /* background-blend-mode: multiply;  */
   background-size: cover;
   position: relative;
@@ -747,11 +747,11 @@ text-align: center;
   gap: 1rem;
 }
 
-/* .slogan .firstb .slimages{
+/* .slogan .firstb .slimages-original{
   display: block;
 } */
 
-.slogan .firstb .slimages img{
+.slogan .firstb .slimages-original img{
   width: 100%;
   height: 100%;
 }
@@ -786,7 +786,7 @@ text-align: center;
   .secondb{
     width: 37vw;
   }
-  .slimages{
+  .slimages-original{
     padding-left: 150px;
   }
 }
@@ -806,7 +806,7 @@ text-align: center;
   .thirdb{
     padding-left: 50px;
   }
-  .thirdb .slimages{
+  .thirdb .slimages-original{
     width: 37vw;
   }
 }
@@ -880,7 +880,7 @@ text-align: center;
   .sevspesh{
     grid-column: span 2;
   }
-  .slimages{
+  .slimages-original{
     width: 50vw;
     padding-left: 100px;
   }

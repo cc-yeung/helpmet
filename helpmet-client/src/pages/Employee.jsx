@@ -114,7 +114,7 @@ const Employee = () => {
               Add New Employee
               <img
                 className="min-w-[16px] min-h-[16px]"
-                src="./images/new-employee.svg"
+                src="./images-original/new-employee.svg"
                 alt="new employee icon"
               />
             </button>
@@ -182,7 +182,7 @@ const Employee = () => {
                         >
                           <img
                             className="min-w-[16px] min-h-[16px]"
-                            src="./images/edit.svg"
+                            src="./images-original/edit.svg"
                             alt="edit icon"
                           />
                         </button>
@@ -211,7 +211,7 @@ const Employee = () => {
                     >
                       <img
                         className="min-w-[16px] min-h-[16px]"
-                        src="./images/trash.svg"
+                        src="./images-original/trash.svg"
                         alt="delete icon"
                       />
                     </button>

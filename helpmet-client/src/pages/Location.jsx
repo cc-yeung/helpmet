@@ -192,7 +192,7 @@ const Location = () => {
                     <td className="px-0 py-2 md:px-4">
                       <div className="flex items-center gap-2 pl-2">
                         <img
-                          src="./images/map.svg"
+                          src="./images-original/map.svg"
                           alt="map icon"
                           className="w-5 h-5"
                         />
@@ -215,7 +215,7 @@ const Location = () => {
                           >
                             <img
                               className="min-w-[16px] min-h-[16px]"
-                              src="./images/edit.svg"
+                              src="./images-original/edit.svg"
                               alt="edit icon"
                             />
                           </button>
@@ -248,7 +248,7 @@ const Location = () => {
                       >
                         <img
                           className="min-w-[16px] min-h-[16px] "
-                          src="./images/trash.svg"
+                          src="./images-original/trash.svg"
                           alt="delete icon"
                         />
                       </button>

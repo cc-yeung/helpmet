@@ -75,7 +75,7 @@ const InjuryReport = () => {
         alert("Only image files (e.g., .jpg, .jpeg, .png) are allowed.");
     }
 
-    setImage((prevImages) => [...prevImages, ...imageFiles]);
+    setImage((previmages-original) => [...previmages-original, ...imageFiles]);
 }, []);
 
   const { getRootProps, getInputProps } = useDropzone({
@@ -84,7 +84,7 @@ const InjuryReport = () => {
   });
 
   const removeFile = (file) => {
-    setImage((prevImages) => prevImages.filter((img) => img !== file));
+    setImage((previmages-original) => previmages-original.filter((img) => img !== file));
   };
 
   const handleSubmit = async (e) => {

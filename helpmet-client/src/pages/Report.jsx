@@ -211,7 +211,7 @@ const Report = () => {
                       </span>
                       <img
                         className="min-w-[16px] min-h-[16px]"
-                        src="./images/right-arrow.svg"
+                        src="./images-original/right-arrow.svg"
                         alt="details icon"
                       />
                     </button>
