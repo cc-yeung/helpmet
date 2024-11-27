@@ -2,6 +2,7 @@ const jwt = require('jsonwebtoken');
 const { errorHandler } = require('./error');
 
 exports.verifyToken = (req, res, next) => {
+  console.log('Cookies:', req.cookies);
   const token = req.cookies.access_token;
   console.log("Token received:", token);
   
