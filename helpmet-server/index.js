@@ -14,7 +14,7 @@ const port = 5001;
 
 // Middleware
 const corsOptions = {
-  origin: ['https://helpmet.vercel.app', 'http://localhost:3000', 'http://18.144.37.143:5001'],
+  origin: ['http://localhost:3000', 'http://18.144.37.143:5001'],
   credentials: true,
 };
 
