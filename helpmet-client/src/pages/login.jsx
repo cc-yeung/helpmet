@@ -5,7 +5,7 @@ import axios from '../api/axios';
 import { loginStart, loginSuccess, loginFailure } from '../redux/user/userSlice';
 import { useDispatch, useSelector } from 'react-redux';
 
-const LOGIN_URL = 'http://52.53.246.102:5001/auth/login';
+const LOGIN_URL = 'http://18.144.11.61:5001/auth/login';
 
 const login = () => {
   const { setAuth } = useContext(AuthContext);
