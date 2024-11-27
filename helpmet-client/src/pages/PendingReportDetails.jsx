@@ -138,7 +138,7 @@ const PendingReportDetails = () => {
                   onClick={() => navigate(-1)}
                   className="flex items-center py-2 px-4 bg-white rounded text-xs text-black mt-0 gap-2 border text-nowrap mr-4 hover:bg-[#D9D6FE] hover:text-[#6938EF]"
                 >
-                  <img src="../../images-original/return.svg" alt="return icon" />
+                  <img src="../../images/return.svg" alt="return icon" />
                   Back to reports
                 </button>
                 <p className="font-bold text-base">Report ID: {id}</p>

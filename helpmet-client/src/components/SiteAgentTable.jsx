@@ -113,9 +113,9 @@ const ReportTable = () => {
       <td className='px-4 py-2 text-center'>
         <div className="flex justify-center">
           {locationReportCounts[location.locationID] > 20 ? (
-            <img src="/images-original/severe.svg" alt="Severe" />
+            <img src="/images/severe.svg" alt="Severe" />
           ) : (
-            <img src="/images-original/safe.svg" alt="Safe" />
+            <img src="/images/safe.svg" alt="Safe" />
           )}
         </div>
       </td>

@@ -182,19 +182,19 @@ const EquipmentList = ({ equipments, onView, onUpdate, onDelete }) => {
                         className='border hover:cursor-pointer hover:border-[#4A1FB8] flex justify-center items-center'
                         style={{ width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '0px' }}
                       >
-                        <img src={expandedEquipmentID === equipment.equipmentID ? "./images-original/collapse-arrow.svg" : "./images-original/down-arrow.svg"} alt="Toggle Details" style={{ maxWidth: '100%' }} />
+                        <img src={expandedEquipmentID === equipment.equipmentID ? "./images/collapse-arrow.svg" : "./images/down-arrow.svg"} alt="Toggle Details" style={{ maxWidth: '100%' }} />
                       </button>
                       <button onClick={() => handleUpdate(equipment)} title="Edit"
                         className='border hover:cursor-pointer hover:border-[#4A1FB8] flex justify-center items-center'
                         style={{ width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '0px' }}
                       >
-                        <img src="./images-original/edit.svg" alt="edit icon" style={{ maxWidth: '100%' }} />
+                        <img src="./images/edit.svg" alt="edit icon" style={{ maxWidth: '100%' }} />
                       </button>
                       <button onClick={() => onDelete(equipment.equipmentID)} title="Delete"
                         className='border hover:cursor-pointer hover:border-[#4A1FB8] flex justify-center items-center'
                         style={{ width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '0px' }}
                       >
-                        <img src="./images-original/trash.svg" alt="delete icon" style={{ maxWidth: '100%' }} />
+                        <img src="./images/trash.svg" alt="delete icon" style={{ maxWidth: '100%' }} />
                       </button>
                     </div>
                   </td>

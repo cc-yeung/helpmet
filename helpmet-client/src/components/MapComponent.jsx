@@ -284,7 +284,7 @@ const MapComponent = () => {
               width: 30px;
               height: 30px;
             ">
-              <img src="/images-original/severe.svg" style="
+              <img src="/images/severe.svg" style="
                 width: 30px;
                 height: 30px;
                 position: absolute;

@@ -176,7 +176,7 @@ const Department = () => {
                         >
                           <img
                             className="min-w-[16px] min-h-[16px]"
-                            src="./images-original/edit.svg"
+                            src="./images/edit.svg"
                             alt="edit icon"
                           />
                         </button>
@@ -207,7 +207,7 @@ const Department = () => {
                     >
                       <img
                         className="min-w-[16px] min-h-[16px]"
-                        src="./images-original/trash.svg"
+                        src="./images/trash.svg"
                         alt="delete icon"
                       />
                     </button>
