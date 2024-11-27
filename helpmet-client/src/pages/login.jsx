@@ -5,7 +5,7 @@ import axios from '../api/axios';
 import { loginStart, loginSuccess, loginFailure } from '../redux/user/userSlice';
 import { useDispatch, useSelector } from 'react-redux';
 
-const LOGIN_URL = 'http://18.144.37.143:5001/auth/login';
+const LOGIN_URL = 'http://localhost:5001/auth/login';
 
 const login = () => {
   const { setAuth } = useContext(AuthContext);
@@ -43,7 +43,7 @@ const login = () => {
 
     try {
       dispatch(loginStart());
-      const response = await axios.post(LOGIN_URL, JSON.stringify({ email, password: pwd }),
+      const response = await axios.post('/auth/login', JSON.stringify({ email, password: pwd }),
         {
           headers: { 'Content-Type': 'application/json' },
           withCredentials: true
